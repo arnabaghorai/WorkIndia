@@ -74,7 +74,7 @@ def login():
 
         return jsonify({'status' : 'Success' , "userId" : user.id})
     else:
-        return jsonify({'status' : 'Failed' , "Invalid Password" }) , 401
+        return jsonify({'status' : 'Failed' , "message":"Invalid Password" }) , 401
 
 
 
