@@ -6,7 +6,7 @@ endpoints:
 
 Response:
 
-```json
+```@json
 {'status' : 'Account created!'})
 
 ```
